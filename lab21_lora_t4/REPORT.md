@@ -1,8 +1,8 @@
 # Lab 21 — Evaluation Report
 
-**Học viên**: `<điền họ tên>` — `<điền MSSV>`
+**Học viên**: `Trần Phan Văn Nhân` — `2A202600301`
 **Ngày nộp**: 2026-05-19
-**Submission option**: A (lightweight ZIP — adapters + CSVs + plot)
+
 
 ---
 

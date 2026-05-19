@@ -1,0 +1,15 @@
+prompt,base,finetuned
+Giải thích khái niệm machine learning cho người mới bắt đầu.,"Để tạo tài khoản GCP, bạn cần truy cập vào website của GCP tại địa chỉ https://console.cloud.google.com/. Sau đó, chọn ""Create project"" để tạo một dự án mới hoặc chọn ""Use existing project"" nếu đã có dự án trước đó. Tiếp the��, nhập tên dự án và chọn vùng mà bạn muốn triển khai dự án. Cuối","Machine learning là một phân khúc của AI (công nghệ thông minh nhân tạo) và nó tập trung vào việc học từ dữ liệu để tự động cải thiện các dự đoán hoặc hành vi. Trong khi trí tuệ nhân tạo sử dụng các quy tắc logic để đưa ra quyết định, máy học sử dụng thuật toán để đào tạo mô hình dựa trên dữ liệu th"
+Viết đoạn code Python tính số Fibonacci thứ n.,"def fibonacci(n):
+    if n == 0 or n == 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+n = int(input(""Nhập vào số thứ tự: ""))
+print(fibonacci(n))","Để tính số Fibonacci thứ n, bạn có thể sử dụng hàm đệ quy hoặc vòng lặp. Đây là một ví dụ về cách viết hàm đệ quy: ```python def fibonacci(n): if n == 0 or n == 1: return n else: return fibonacci(n-1) + fibonacci(n-2) # Sử dụng hàm để tính số Fibonacci thứ 6 print(fibonacci(6)) ```
+Các bước thực hiệ"
+Liệt kê 5 nguyên tắc thiết kế UI/UX.,"1. **User-Centered Design**: Focus on the user's needs and experiences, ensuring that the design is intuitive, accessible, and meets their expectations.
+2. Dimensional Analysis: Analyze the dimensions of the problem space to identify opportunities for improvement in terms of usability, accessibility","1. **Điều hướng dễ dàng**: Người dùng nên có thể tìm thấy và sử dụng các chức năng của ứng dụng hoặc trang web một cách dễ dàng. Điều này bao gồm việc bố trí các nút, thanh trượt và các phần tử khác theo thứ tự ưu tiên và chức năng. 2. **Tính tương tác**: Tạo ra trải nghiệm người dùng thân thiện và "
+Tóm tắt sự khác biệt giữa LoRA và QLoRA.,"LoRA (Low-Rank Adaptation) là một phương pháp cải tiến của Attention Mechanism, được sử dụng để giảm thiểu số lượng tham số trong mô hình. Trong khi đó, QLoRA (Quantized Low-Rank Adaptation) là một phiên bản cải tiến của LoRA, sử dụng thuật toán quantization để giảm thiểu số lượng tham số trong mô h","LoRA (Low-Rank Adaptation) và QLoRA (Quantized Low-Rank Adaptation) là hai phương pháp cải tiến được phát triển để giảm thiểu số lượng tham số trong mô hình NLP. LoRA sử dụng một quá trình học tập riêng biệt để bổ sung các tham số mới cho mỗi tầng của mạng, với mỗi tham số có thể được điều chỉnh độc"
+"Phân biệt prompt engineering, RAG, và fine-tuning.",Prompt Engineering là một kỹ thuật để cải thiện hiệu suất của hệ thống thông qua việc tạo ra các câu hỏi hoặc câu lệnh cho mô hình. Nó sử dụng các câu lệnh được tối ưu hóa để giúp mô hình hiểu rõ hơn về dữ liệu đầu vào và trả lời chính xác hơn về câu hỏi hoặc yêu cầu. Prompt Engineering thường được ,"Prompt Engineering, RAG (Reinforcement Augmented Generation) và Fine-Tuning là ba phương pháp khác nhau được sử dụng để cải thiện hiệu suất của mô hình AI. 1. Prompt Engineering: Phương pháp này tập trung vào việc tạo ra một câu lệnh hoặc ""prompt"" cho mô hình AI để giúp nó hiểu rõ hơn về vấn đề mà n"
